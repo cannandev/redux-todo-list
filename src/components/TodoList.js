@@ -13,12 +13,16 @@ export const TodoListBase = ({ todos }) => {
       <h1>My Todos</h1>
       <TodoInput />
       <ul className="usa-list usa-list">
-        {todos.map(todo => <TodoListItem todo={todo} key={todo.id} />)}
+        {todos.map(todo => <TodoListItem todo={todo} key={todo.title} />)}
       </ul>
     </div>
   )
 }
 
+/**
+ * TODO: comment
+ * @param {*} state
+ */
 const mapStateToProps = state => ({
   todos: state.todos
 })

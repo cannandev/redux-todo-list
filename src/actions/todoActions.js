@@ -6,26 +6,26 @@ export const DELETE_TODO = 'DELETE_TODO'
 
 /**
  * CREATORS
- * @param {*} id Takes a unique identifier as a parameter
+ * @param {*} text Takes a unique identifier as a parameter
  * @returns the action - a json object with type and payload props
  */
-export const createTodo = title => (
+export const createTodo = text => (
   {
     type: CREATE_TODO,
-    payload: { title }
+    payload: { text }
   }
 )
 
-export const markAsComplete = title => (
+export const markAsComplete = text => (
   {
     type: MARK_AS_COMPLETE,
-    payload: { title },
+    payload: { text },
   }
 )
 
-export const deleteTodo = title => (
+export const deleteTodo = text => (
   {
     type: DELETE_TODO,
-    payload: { title }
+    payload: { text }
   }
 )
