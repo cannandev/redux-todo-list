@@ -6,7 +6,7 @@ export const todos = (state = [], action) => {
   const { type } = action
 
   // TODO: Comment
-  switch (action.type) {
+  switch (type) {
     case CREATE_TODO:
     case MARK_AS_COMPLETE:
     case DELETE_TODO:
