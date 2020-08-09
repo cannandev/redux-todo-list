@@ -17,7 +17,7 @@ export const TodoInputBase = ({ addOnClick }) => {
         id="new-item-input"
       />
       <button className="usa-button"
-        onClick={_ => {
+        onClick={() => {
           addOnClick(inputText)
           setText('')
         }}>Add</button>
