@@ -9,7 +9,7 @@ import { TodoInput } from './TodoInput'
  */
 export const TodoListBase = ({ todos }) => {
   return (
-    <div className="mobile-lg:grid-col-4 margin-top-4 mobile-lg:margin-top-0">
+    <div className="mobile-lg:grid-col-4 margin-top-4 mobile-lg:margin-top-0 padding-2">
       <h1>My Todos</h1>
       <TodoInput />
       <ul className="usa-list usa-list">
