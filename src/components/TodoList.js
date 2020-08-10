@@ -13,7 +13,7 @@ export const TodoListBase = ({ todos }) => {
       <h1>My Todos</h1>
       <TodoInput />
       <ul className="usa-list usa-list">
-        {todos.map(todo => <TodoListItem todo={todo} key={todo.title} />)}
+        {todos.map(todo => <TodoListItem todo={todo} key={todo.text} />)}
       </ul>
     </div>
   )
