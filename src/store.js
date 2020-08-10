@@ -1,5 +1,5 @@
 import { createStore, combineReducers } from 'redux'
-import { todos } from './reducers/todos'
+import { todos } from './reducers/todoReducers'
 
 // object that contains several properties/functions (e.g. tells store how to update todos).
 const reducers = {
