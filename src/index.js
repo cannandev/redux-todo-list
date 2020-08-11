@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { configureStore } from './store'
-import './uswds-2.8.0/css/uswds.min.css';
+import './App.scss';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
